@@ -19,7 +19,7 @@
 			],        	
             "outArguments": [				
 			],
-			"url": "https://__insert_your_custom_activity_endpoint__/ixn/activities/update-case/execute/",
+			"url": "https://ar-game-poc.herokuapp.com/ixn/activities/update-case/execute/",
             "verb": "POST",
             "body": "",
             "header": "",
@@ -29,29 +29,29 @@
         }
     },
     "configurationArguments": {
-    	"applicationExtensionKey": "__activity-key__",
+    	"applicationExtensionKey": "ff0510c9-a075-4fb1-acef-5b2e659db722",
         "defaults": { },     
         "save": {
-        	"url": "https://__insert_your_custom_activity_endpoint__/ixn/activities/update-case/save/",
+        	"url": "https://ar-game-poc.herokuapp.com/ixn/activities/update-case/save/",
             "body": "",
             "verb": "POST",
             "useJwt": false
         },
         "publish": {
-        	"url": "https://__insert_your_custom_activity_endpoint__/ixn/activities/update-case/publish/",
+        	"url": "https://ar-game-poc.herokuapp.com/ixn/activities/update-case/publish/",
             "verb": "POST",
             "body": "",
             "useJwt": false
         },
         "validate": {
-        	"url": "https://__insert_your_custom_activity_endpoint__/ixn/activities/update-case/validate/",
+        	"url": "hhttps://ar-game-poc.herokuapp.com/ixn/activities/update-case/validate/",
             "verb": "POST",
             "body": "",
             "useJwt": false            
         }
     },
     "edit": {
-    	"url": "https://__insert_your_custom_activity_endpoint__/ixn/activities/update-case/",
+    	"url": "https://ar-game-poc.herokuapp.com/ixn/activities/update-case/",
         "height": 400,
         "width": 500
     }
